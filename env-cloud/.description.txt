@@ -1,0 +1,17 @@
+Mini cloud sollution for random shii
+
+
+#   Server types
+
+    DB
+    Database server 
+
+    APP
+    Application server
+
+
+#   Naming scheme
+cloud-HCD           cloud-HCT           cloud-HCP
+        ^                   ^                   ^
+        |                   |                   |
+       dnoc                test                prod
