@@ -15,3 +15,4 @@ test {
 }
 
 apply from: 'tasks.gradle'
+apply from: 'tasks_win.gradle'

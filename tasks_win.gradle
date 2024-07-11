@@ -1,0 +1,4 @@
+task ('print_status', 'description': "print the current performance status of server").doLast {
+    exec {commandLine "cmd", "/c", "wmic cpu get loadpercentage"}
+    exec {commandLine "cmd", "/c", "wmic os get freephysicalmemory"}
+}

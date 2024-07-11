@@ -1,5 +1,3 @@
-task customTask {
-    doLast {
-        println 'This is a custom task from env-cloud/tasks.gradle'
-    }
+task ('customTask', 'description': "testtesteststetst").doLast {
+    println 'This is a custom task from env-cloud/tasks.gradle'
 }
